@@ -1,14 +1,15 @@
 ﻿namespace zmqClusteredHashmap.MessageFrames
 {
-    public class StringMessageFrame : IMessageFrame
+    public class MessageFrame<T> : IMessageFrame
     {
-        readonly string _content;
         public object Content
         {
             get { return _content; }
         }
 
-        public StringMessageFrame(string content)
+        readonly T _content;
+
+        public MessageFrame(T content)
         {
             _content = content;
         }

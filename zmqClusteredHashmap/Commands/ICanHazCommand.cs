@@ -19,8 +19,8 @@ namespace zmqClusteredHashmap.Commands
         {
             _messageFrames = new List<IMessageFrame>
                 {
-                    new StringMessageFrame("ICANHAZ?"),
-                    new StringMessageFrame(subtreeSpecification)
+                    new MessageFrame<string>("ICANHAZ?"),
+                    new MessageFrame<string>(subtreeSpecification)
                 };
         }
 

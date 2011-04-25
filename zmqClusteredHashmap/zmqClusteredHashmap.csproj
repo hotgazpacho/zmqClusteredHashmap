@@ -78,9 +78,11 @@
     <Compile Include="ClusteredHashmapClient.cs" />
     <Compile Include="Commands\ICanHazCommand.cs" />
     <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\KVSyncCommand.cs" />
     <Compile Include="KeyValueMessage.cs" />
+    <Compile Include="MessageFrames\EmptyMessageFrame.cs" />
     <Compile Include="MessageFrames\IMessageFrame.cs" />
-    <Compile Include="MessageFrames\StringMessageFrame.cs" />
+    <Compile Include="MessageFrames\MessageFrame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ClusteredHashmapServer.cs" />
   </ItemGroup>
