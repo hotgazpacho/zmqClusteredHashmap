@@ -78,6 +78,7 @@
     <Compile Include="Commands\ICANHAZ\create_with_valid_subtree_specification.cs" />
     <Compile Include="Commands\ICANHAZ\ICanHazCommandBehaviors.cs" />
     <Compile Include="Commands\KTHXBAI\creating.cs" />
+    <Compile Include="Commands\KVPUB\creating.cs" />
     <Compile Include="Commands\KVSYNC\creating.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\creating.cs" />
