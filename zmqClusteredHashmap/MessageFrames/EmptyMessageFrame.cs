@@ -4,7 +4,7 @@ namespace zmqClusteredHashmap.MessageFrames
     {
         public object Content
         {
-            get { return null; }
+            get { return string.Empty; }
         }
     }
 }

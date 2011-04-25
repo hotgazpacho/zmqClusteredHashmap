@@ -17,11 +17,11 @@ namespace zmqClusteredHashmap.Commands
         {
             _messageFrames = new List<IMessageFrame>
                 {
-                    new MessageFrame<string>(message.Key),
-                    new MessageFrame<byte[]>(BitConverter.GetBytes(message.Sequence)),
-                    message.UUID.HasValue? (IMessageFrame) new MessageFrame<byte[]>(message.UUID.Value.ToByteArray()) : new EmptyMessageFrame(),
-                    new MessageFrame<string>(message.EncodeProperties()),
-                    new MessageFrame<byte[]>(message.Body)
+                    new StringMessageFrame(message.Key),
+                    new BinaryMessageFrame(BitConverter.GetBytes(message.Sequence)),
+                    message.UUID.HasValue? (IMessageFrame) new BinaryMessageFrame(message.UUID.Value.ToByteArray()) : new EmptyMessageFrame(),
+                    new StringMessageFrame(message.EncodeProperties()),
+                    new BinaryMessageFrame(message.Body)
                 };
         }
     }

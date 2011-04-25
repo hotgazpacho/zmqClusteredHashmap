@@ -16,8 +16,8 @@ namespace zmqClusteredHashmap.Commands
         {
             _messageFrames = new List<IMessageFrame>
                 {
-                    new MessageFrame<string>("HUGZ"),
-                    new MessageFrame<string>(string.Empty.PadRight(8, '0')),
+                    new StringMessageFrame("HUGZ"),
+                    new StringMessageFrame(string.Empty.PadRight(8, '0')),
                     new EmptyMessageFrame(),
                     new EmptyMessageFrame(),
                     new EmptyMessageFrame()
