@@ -78,6 +78,7 @@
     <Compile Include="ClusteredHashmapClient.cs" />
     <Compile Include="Commands\ICanHazCommand.cs" />
     <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\KThxBaiCommand.cs" />
     <Compile Include="Commands\KVSyncCommand.cs" />
     <Compile Include="KeyValueMessage.cs" />
     <Compile Include="MessageFrames\EmptyMessageFrame.cs" />
