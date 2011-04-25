@@ -81,6 +81,7 @@
     <Compile Include="Commands\ICommand.cs" />
     <Compile Include="Commands\KThxBaiCommand.cs" />
     <Compile Include="Commands\KVPubCommand.cs" />
+    <Compile Include="Commands\KVSetCommand.cs" />
     <Compile Include="Commands\KVSyncCommand.cs" />
     <Compile Include="KeyValueMessage.cs" />
     <Compile Include="MessageFrames\BinaryMessageFrame.cs" />
