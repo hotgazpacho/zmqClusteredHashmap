@@ -74,6 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\creating.cs" />
+    <Compile Include="Commands\ICANHAZ\create_without_subtree_specification.cs" />
+    <Compile Include="Commands\ICANHAZ\create_with_valid_subtree_specification.cs" />
+    <Compile Include="Commands\ICANHAZ\ICanHazCommandBehaviors.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\creating.cs" />
   </ItemGroup>
