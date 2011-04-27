@@ -74,6 +74,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\creating.cs" />
+    <Compile Include="Client\receiving_message_with_empty_value.cs" />
+    <Compile Include="Client\receiving_non_incremental_update.cs" />
+    <Compile Include="Client\sending_an_update.cs" />
+    <Compile Include="Client\starting.cs" />
     <Compile Include="Commands\HUGZ\creating.cs" />
     <Compile Include="Commands\ICANHAZ\create_without_subtree_specification.cs" />
     <Compile Include="Commands\ICANHAZ\create_with_valid_subtree_specification.cs" />
@@ -83,7 +87,14 @@
     <Compile Include="Commands\KVSET\creating.cs" />
     <Compile Include="Commands\KVSYNC\creating.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\configured_to_send_heartbeats.cs" />
     <Compile Include="Server\creating.cs" />
+    <Compile Include="Server\expiring_update_with_ttl.cs" />
+    <Compile Include="Server\hashtable_updated.cs" />
+    <Compile Include="Server\receiving_an_update_with_empty_value.cs" />
+    <Compile Include="Server\sync_without_any_messages_in_the_hashtable.cs" />
+    <Compile Include="Server\sync_with_many_messages_in_the_hashtable.cs" />
+    <Compile Include="Server\sync_with_one_message_in_the_hashtable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
